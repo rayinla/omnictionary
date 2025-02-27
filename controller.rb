@@ -1,8 +1,9 @@
+# Controller will define the operation of reading inputs and producing outputs from CSV file
 class Controller
   def initialize
 	@view = View
   end
-
+	
   def run	  	
   	outer_exit = false
   	until outer_exit == true
